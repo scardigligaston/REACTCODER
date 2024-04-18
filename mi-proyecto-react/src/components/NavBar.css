@@ -1,0 +1,43 @@
+.ContainerNavBar { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(44, 51, 51);
+         
+}
+
+.NavUla ul li {
+    display: inline-block;
+    
+    padding: 1em;
+    margin: .2em;
+    list-style: none;
+    
+    
+    
+}
+.NavUla ul li a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.ContainerCart { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 3em;
+    height: 3em;
+    padding: .2em;
+    gap: .2em;
+   
+}
+.ContainerCart span{
+    font-size: 1.6em;
+    background-color: rgba(27, 216, 100, 0.733);
+    padding: .1em;
+    border-radius: 30%;
+    border: solid 1px #fff;
+
+    
+}
